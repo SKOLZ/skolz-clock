@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "fitbit": {
+    "appUUID": "b762e15b-f921-4691-9a71-b64db96ff170",
+    "appType": "clockface",
+    "appDisplayName": "SKOLZ Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "SKOLZ Clock"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

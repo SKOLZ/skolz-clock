@@ -1,0 +1,93 @@
+<svg>
+  <image x="0" y="0" width="100%" height="100%" href="assets/bg.png" />
+  <section x="0" y="0" width="50%" height="100%">
+    <text
+      id="hours"
+      x="50%"
+      y="50% - 15"
+      width="100%"
+      fill="#FAFAFA"
+      font-size="110"
+      font-family="System-Regular"
+      text-anchor="middle"
+      text-length="2"
+    >
+      hours
+    </text>
+    <text
+      id="minutes"
+      x="50%"
+      y="50% + 85"
+      fill="#FAFAFA"
+      font-size="110"
+      font-family="System-Regular"
+      text-anchor="middle"
+      text-length="2"
+    >
+      minutes
+    </text>
+    <text
+      id="date"
+      x="50%"
+      y="100% - 20"
+      fill="#655189"
+      font-size="32"
+      font-family="System-Regular"
+      text-anchor="middle"
+      text-length="10"
+    >
+      date
+    </text>
+  </section>
+  <line x1="50%" y1="20%" x2="50%" y2="80%" fill="#655189" stroke-width="2" />
+  <section x="50%" y="0" width="50%" height="100%">
+    <section x="20" y="30%-13" width="100%">
+      <image x="0" y="0" width="26" height="26" href="assets/heart.png" />
+      <text
+        id="heart-rate"
+        x="35"
+        y="22"
+        width="100%-20"
+        fill="#FAFAFA"
+        font-size="24"
+        font-family="System-Light"
+        text-anchor="start"
+        text-length="10"
+      >
+        --
+      </text>
+    </section>
+    <section x="20" y="50%-13" width="100%">
+      <image x="0" y="0" width="26" height="26" href="assets/steps.png" />
+      <text
+        id="steps"
+        x="35"
+        y="22"
+        width="100%-20"
+        fill="#FAFAFA"
+        font-size="24"
+        font-family="System-Light"
+        text-anchor="start"
+        text-length="8"
+      >
+        steps
+      </text>
+    </section>
+    <section x="20" y="70%-13" width="100%">
+      <image x="0" y="0" width="26" height="26" href="assets/battery.png" />
+      <text
+        id="battery"
+        x="35"
+        y="22"
+        width="100%-20"
+        fill="#FAFAFA"
+        font-size="24"
+        font-family="System-Light"
+        text-anchor="start"
+        text-length="10"
+      >
+        battery
+      </text>
+    </section>
+  </section>
+</svg>
